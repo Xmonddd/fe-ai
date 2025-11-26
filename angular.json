@@ -107,5 +107,15 @@
     "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
-  }
+  },
+  "buildCommand": "npx ng build --configuration production",
+  "outputDirectory": "dist/fe/browser",
+  "framework": null,
+  "installCommand": "npm install",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
 }
