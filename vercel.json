@@ -1,0 +1,9 @@
+{
+  "buildCommand": "npx ng build --configuration production",
+  "outputDirectory": "dist/fe/browser",
+  "framework": null,
+  "installCommand": "npm ci",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
